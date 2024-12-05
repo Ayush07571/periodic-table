@@ -68,6 +68,7 @@ body {
   footer nav ul li a {
     color: white;
     text-decoration: none;
+    user-select: none;
   }
   
   footer nav ul li a:hover {
