@@ -1,53 +1,53 @@
+/* General Styling */
 table {
     height: 90%;
     width: 100%;
     box-shadow: 0px 0px 25px 7px #D4EBF8;
     border-radius: 3%;
     padding: 2%;
+    background-color: lightblue;
 }
 
-.yes,.yes_row td{
-    border: 2px solid black;
-}
-
-/* Text align and zoom effect */
-td {  
+/* Text alignment and zoom effect */
+td {
     width: 20px;
     text-align: center;
     transition: transform .2s; /* Animation */
     margin: 10px;
     border-radius: 5px;
+    font-size: 1rem; /* Scalable font size */
 }
 
-.yes_row td:hover,.yes:hover{
+.yes, .yes_row td {
+    border: 2px solid black;
+}
+
+.yes_row td:hover, .yes:hover {
     transform: scale(1.5);
     box-shadow: 0px 0px 5px 2px whitesmoke;
 }
-.yes_row td:active,.yes:active,#La td:active,#Ac td:active{
+
+.yes_row td:active, .yes:active, #La td:active, #Ac td:active {
   background-color: whitesmoke;
 }
 
-#lanthanoids:hover,#actinoids:hover{
-  transition: none ;
-  transform: none;
+#lanthanoids:hover, #actinoids:hover {
+    transition: none;
+    transform: none;
 }
 
-main{
-  padding: 7%;
-  margin: 0%;
+main {
+    padding: 7%;
+    margin: 0%;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  background-image: url("../assets/bg1.jpg") ;
-  background-repeat: repeat;
-  background-size: cover;
-  padding-bottom: 0;
-}
-
-table{
-  background-color: lightblue;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 0;
 }
 
 /* Periodic Table heading */
@@ -55,116 +55,161 @@ h1 {
     color: lightblue;
     text-shadow: 0 0 6px #D4EBF8;
     text-align: center;
-    font-size: 80px;
+    font-size: 5vw; /* Scalable font size */
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-/* Row 0 elements (IA,IIA,etc.) */
+
+/* Row 0 elements (IA, IIA, etc.) */
 #row0 td {
     font-weight: 900;
 }
 
 /* f-block table */
-#f-block{
+#f-block {
     padding: 8%;
 }
 
-/* To set the color of in-table text and remove underline of hyperlink  */
-a{
+/* To set the color of in-table text and remove underline of hyperlink */
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-table tr td{
-    font-size: 23px;
+/* Table cells */
+table tr td {
+    font-size: 1.2rem;
     height: 50px;
     width: 50px;
 }
-table tr td div{
-    font-size: 18px;
+
+table tr td div {
+    font-size: 1rem;
 }
-/* Atomic number in the table */
-.at_no{
+
+/* Atomic number styling */
+.at_no {
     text-align: right;
     color: black;
 }
-/* Name of blocks  */
-.title{
+
+/* Name of blocks */
+.title {
     text-align: center;
     font-weight: bold;
     text-shadow: 1px 1px 1px grey;
 }
 
-  /* table box color */
-.other_non_metals{
-  background-color:#21ed1a;
-}
+/* Table block colors */
+.other_non_metals { background-color: #21ed1a; }
+.alkali_metals { background-color: orangered; }
+.alkaline_earth_metals { background-color: gold; }
+.transition_metals { background-color: lightcoral; }
+#lanthanoids, #La td { background-color: lightsalmon; }
+#actinoids, #Ac td { background-color: #d966ff; }
+.post_transition_metals { background-color: lightgrey; }
+.metalloids { background-color: #0dd9d9; }
+.halogens { background-color: #66ffff; }
+.noble_gas { background-color: #4d94ff; }
 
-.alkali_metals{
-  background-color: orangered;
-}
-
-.alkaline_earth_metals{
-  background-color: gold;
-}
-
-.transition_metals{
-  background-color: lightcoral;
-}
-
-#lanthanoids,#La td{
-  background-color: lightsalmon;
-}
-
-#actinoids,#Ac td{
-  background-color: #d966ff;
-}
-
-.post_transition_metals{
-  background-color: lightgrey;
-}
-
-.metalloids{
-  background-color: #0dd9d9;
-}
-
-.halogens{
-  background-color: #66ffff;
-}
-
-.noble_gas{
-  background-color: #4d94ff;
-}
-
-
+/* Footer Styling */
 footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 0.5rem 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
 }
 
 footer nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 footer nav ul li {
-  margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 footer nav ul li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 footer nav ul li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    table {
+        padding: 1%;
+    }
+
+    td {
+        font-size: 0.9rem;
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 992px) {
+    table {
+        padding: 2%;
+    }
+
+    td {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        padding: 3%;
+    }
+
+    td {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    main {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        padding: 5%;
+    }
+
+    td {
+        font-size: 1.2rem;
+        width: 40px; /* Smaller cells on mobile */
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    main {
+        padding: 3%;
+    }
 }
