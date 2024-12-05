@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to right,rgb(155, 224, 244),whitesmoke);
+    ;
   }
   
-  header {
-    background-color: #5783bd;
-    color: white;
+  header{
+    color:  #1e3d59;
     text-align: center;
     padding: 1%;
   }
@@ -17,16 +17,19 @@ body {
   }
   
   section.mnemonic {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid rgb(89, 157, 217);
+    box-shadow: -4px 4px 4px 2px rgba(0, 0, 0, 0.245);
   }
   
   h2 {
     color: #0077b6;
+  }
+
+  hr{
+    border-color: #1e3d59;
   }
   
 /* footer nav bar */
