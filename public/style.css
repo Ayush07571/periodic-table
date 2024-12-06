@@ -30,8 +30,9 @@ td {
 }
 
 #lanthanoids:hover,#actinoids:hover{
-  transition: none ;
+  transition: none;
   transform: none;
+   box-shadow: none;
 }
 
 main{
