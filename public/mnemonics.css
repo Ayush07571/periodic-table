@@ -35,6 +35,7 @@ body {
 /* footer nav bar */
 
   footer {
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color:  #1e3d59;
