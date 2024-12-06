@@ -4,6 +4,7 @@ table {
     box-shadow: 0px 0px 25px 7px #D4EBF8;
     border-radius: 3%;
     padding: 2%;
+    background-color: lightblue;
 }
 
 .yes,.yes_row td{
@@ -17,6 +18,7 @@ td {
     transition: transform .2s; /* Animation */
     margin: 10px;
     border-radius: 5px;
+    user-select: none;
 }
 
 .yes_row td:hover,.yes:hover{
@@ -46,12 +48,11 @@ html,body{
   padding-bottom: 0;
 }
 
-table{
-  background-color: lightblue;
-}
-
 /* Periodic Table heading */
 h1 {
+    user-select: none;
+    margin: 0;
+    padding-bottom: 3%;
     color: lightblue;
     text-shadow: 0 0 6px #D4EBF8;
     text-align: center;
