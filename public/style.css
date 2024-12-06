@@ -37,7 +37,7 @@ main{
   margin: 0%;
 }
 
-body{
+html,body{
   margin: 0;
   padding: 0;
   background-image: url("../assets/bg1.jpg") ;
@@ -138,10 +138,11 @@ table tr td div{
   background-color: #4d94ff;
 }
 
-/* Navigation bar (footer) */
+/* Navigation Bar (footer) */
 
 footer {
-  bottom: 0;
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color:  #1e3d59;
   color: white;
