@@ -1,4 +1,4 @@
-##Periodic Table Website 🌟
+## Periodic Table Website 🌟
 Explore the wonders of the **Periodic Table** with our interactive and educational website! This project is designed to make learning about the periodic table fun and engaging.
 ## 🌐 Live Demo
 Check out the live website here: [Periodic Table Website](https://hariom-handloom.github.io/periodic-table/)
@@ -34,15 +34,26 @@ Check out the live website here: [Periodic Table Website](https://hariom-handloo
  - **CSS**: Styling for a visually appealing and user-friendly experience.
 ## 🚀 How to Explore Locally
 1. Clone this repository:
+   
    ```bash
+   
    git clone https://github.com/Hariom-Handloom/periodic-table.git
+
    ```
+   
 2. Navigate to the project directory:
+
    ```bash
+
    cd periodic-table
+
    ```
+   
 3. Open the `index.html` file in your preferred web browser to start exploring!
+
+   
 ## 📁 Project Structure
+```bash
 
 periodic-table/
 │
@@ -70,23 +81,38 @@ periodic-table/
 │       ├── atom.png         # PNG representation of atomic structure.
 │       └── ...
 └── README.md                # Project documentation.
-    
+
+```
+
+
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project:
 1. Fork the repository.
 2. Create a feature branch:
+   
    ```bash
+   
    git checkout -b feature-name
+   
    ```
-3. Commit your changes:
+   
+4. Commit your changes:
+   
    ```bash
+   
    git commit -m 'Add feature-name'
+   
    ```
-4. Push your branch:
+   
+5. Push your branch:
+   
    ```bash
+   
    git push origin feature-name
+
    ```
-5. Open a pull request.
+   
+7. Open a pull request.
 ## 🧑‍💻 Author
 **Hariom Handloom**
 [GitHub Profile](https://github.com/Hariom-Handloom)
