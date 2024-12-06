@@ -25,6 +25,7 @@ h2 {
 }
   
 .event {
+    border-left: 0.5rem solid #1c53a6;
     background: #fff;
     padding: 1rem;
     margin-bottom: 1rem;
