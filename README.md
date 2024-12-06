@@ -115,4 +115,4 @@ Contributions are welcome! If you'd like to improve this project:
 7. Open a pull request.
 ## 🧑‍💻 Author
 **Hariom Handloom**
-[GitHub Profile](https://github.com/Hariom-Handloom)
+[GitHub Profile](https://github.com/Ayush07571)
