@@ -2,7 +2,7 @@ table {
     height: 90%;
     width: 100%;
     box-shadow: 0px 0px 25px 7px #D4EBF8;
-    border-radius: 3%;
+    border-radius: 25px;
     padding: 2%;
     background-color: lightblue;
 }
