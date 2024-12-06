@@ -17,6 +17,7 @@ body {
   }
   
   section.mnemonic {
+    border-left: 0.5rem solid #1c53a6;
     background-color: whitesmoke;
     margin: 1rem 0;
     padding: 1rem;
