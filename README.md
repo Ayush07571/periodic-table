@@ -1,7 +1,7 @@
 ## Periodic Table Website 🌟
 Explore the wonders of the **Periodic Table** with our interactive and educational website! This project is designed to make learning about the periodic table fun and engaging.
 ## 🌐 Live Demo
-Check out the live website here: [Periodic Table Website](https://hariom-handloom.github.io/periodic-table/)
+Check out the live website here: [Periodic Table Website](https://ayush07571.github.io/periodic-table/)
 ## 📖 Features
 ### 🔬 Interactive Periodic Table
 - A clickable periodic table providing in-depth information about each element, including:
