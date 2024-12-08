@@ -1,3 +1,4 @@
+/* Table styling */
 table {
     height: 90%;
     width: 100%;
@@ -11,7 +12,7 @@ table {
     border: 2px solid black;
 }
 
-/* Text align and zoom effect */
+/* Text align and zoom effect and glow on hover and active colour change*/
 td {  
     width: 20px;
     text-align: center;
@@ -25,15 +26,18 @@ td {
     transform: scale(1.5);
     box-shadow: 0px 0px 5px 2px whitesmoke;
 }
+
 .yes_row td:active,.yes:active,#La td:active,#Ac td:active{
   background-color: whitesmoke;
 }
 
 #lanthanoids:hover,#actinoids:hover{
-  transition: none;
+  transition: none ;
   transform: none;
-   box-shadow: none;
+  box-shadow: none;
 }
+
+/* General styles */
 
 main{
   padding: 7%;
@@ -49,6 +53,15 @@ html,body{
   padding-bottom: 0;
 }
 
+/* Info line */
+#info{
+  text-align: center;
+  color: lightblue;
+  font-size: 20px;
+  text-shadow:0 0 6px #D4EBF8;
+  font-weight: 800;
+}
+
 /* Periodic Table heading */
 h1 {
     user-select: none;
@@ -62,6 +75,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
 /* Row 0 elements (IA,IIA,etc.) */
 #row0 td {
     font-weight: 900;
@@ -87,11 +101,13 @@ table tr td{
 table tr td div{
     font-size: 18px;
 }
+
 /* Atomic number in the table */
 .at_no{
     text-align: right;
     color: black;
 }
+
 /* Name of blocks  */
 .title{
     text-align: center;
