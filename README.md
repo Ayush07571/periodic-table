@@ -62,24 +62,23 @@ periodic-table/
 │   ├── history.html         # Details about the history of the periodic table.
 │   ├── trends.html          # Explanation of periodic trends.
 │   ├── mnemonics.html       # Fun mnemonics for memorizing the periodic table.
-│   ├── elements/            # 118 individual HTML files, one for each element.
-│   │   ├── 1.html           # Hydrogen element page.
-│   │   ├── 2.html           # Helium element page.
-│   │   └── ...              # Other element pages.
-│   ├── styles/
-│   │   ├── element.css      # Styling for individual element pages.
-│   │   ├── trends.css       # Styling for the trends page.
-│   │   ├── mnemonics.css    # Styling for the mnemonics page.
-│   │   ├── history.css      # Styling for the history page.
-│   │   └── main.css         # General site styling.
+│   ├── 1.html               # Hydrogen element page.
+│   ├── 2.html               # Helium element page.
+│   ├── ...                  # Other element pages.
+│   │                
+│   ├── element.css          # Styling for individual element pages.
+│   ├── trends.css           # Styling for the trends page.      
+│   ├── mnemonics.css        # Styling for the mnemonics page.    
+│   ├── history.css          # Styling for the history page.    
+│   ├── style.css            # General site styling.     
+│   │          
 │   └── assets/
 │       ├── elements/        # PNGs for all 118 elements.
 │       │   ├── 1.png        # Hydrogen element image.
 │       │   ├── 2.png        # Helium element image.
 │       │   └── ...          # Other element images.
-│       ├── background.png   # Background image for the site.
-│       ├── atom.png         # PNG representation of atomic structure.
-│       └── ...
+│       └── bg1.jpg          # Background image for the site.
+│      
 └── README.md                # Project documentation.
 
 ```
