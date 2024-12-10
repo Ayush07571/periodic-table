@@ -115,3 +115,9 @@ Contributions are welcome! If you'd like to improve this project:
 ## 🧑‍💻 Author
 **Ayush Karan**
 [GitHub Profile](https://github.com/Ayush07571)
+
+## Team Members:
+**Ayush Karan**
+**Ashish Raj**
+**Yash Thakur**
+**Gaurav Bhardwaj**
