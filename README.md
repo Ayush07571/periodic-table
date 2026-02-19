@@ -110,6 +110,8 @@ Contributions are welcome! If you'd like to improve this project:
    git push origin feature-name
 
    ```
+
+   This was a college sem 1 project
    
 7. Open a pull request.
 ## 🧑‍💻 Author
